@@ -1,0 +1,151 @@
+@media (max-width: 1200px) {
+
+    // Customs
+    .h2 {
+        font-size: 25px;
+    }
+
+    // Header
+    .header {
+        padding: 15px 0;
+    }
+    .header__logo {
+        margin-right: 20px;
+    }
+    .header__logo_label {
+        font-size: 14px;
+    }
+    .header__btn {
+        width: 220px;
+        height: 48px;
+        font-size: 14px;
+    }
+    .header__info_tel {
+        font-size: 24px;
+    }
+
+    // Navigation
+    .navigation {
+        padding: 15px 0;
+    }
+
+    // Section 1
+    .section-1__title {
+        font-size: 24px;
+    }
+
+    // Section 2
+
+    // Section 3
+
+    // Section 4
+
+    // Section 5
+
+    // Contacts
+
+}
+
+
+@media (max-width: 992px) {
+
+    // Customs
+    .form__title {
+        font-size: 22px;
+    }
+    .form__subtitle {
+        font-size: 18px;
+    }
+
+    // Header
+    .header__btn {
+        display: none;
+    }
+
+    // Navigation
+    .navigation__link {
+        margin-right: 30px;
+        font-size: 16px;
+    }
+
+    // Section 1
+    .section-1__title {
+        font-size: 20px;
+    }
+
+    // Section 2
+
+    // Section 3
+
+    // Section 4
+
+    // Section 5
+
+    // Contacts
+
+}
+
+
+@media (max-width: 767.98px) {
+
+    // Customs {
+    .container {
+        padding: 0 10px;
+    }
+    .label {
+        font-size: 12px;
+    }
+    .input {
+        margin-top: 5px;
+    }
+    .modal-call__form {
+        width: 100%;
+        max-width: 300px;
+        padding: 30px 15px;
+        box-sizing: border-box;
+    }
+    .h2 {
+        font-size: 20px;
+    }
+    .form__block {
+        padding: 25px 10px 30px;
+    }
+    .form__title {
+        font-size: 16px;
+    }
+    .form__subtitle {
+        font-size: 15px;
+    }
+    
+    // Header
+    .header {
+        padding: 5px 0;
+    }
+    .header__right {
+        display: none;
+    }
+    .header__logo {
+        margin-right: 15px;
+    }
+    .header__logo_label {
+        font-size: 10px;
+    }
+
+    // Navigation
+    .navigation {
+        display: none;
+    }
+
+    // Section 1
+
+    // Section 2
+
+    // Section 3
+
+    // Section 4
+
+    // Section 5
+
+    // Contacts
+
+}
