@@ -1,0 +1,19 @@
+.section-5 {
+  padding-bottom: 80px;
+  background-color: $white;
+}
+
+.section-5__block {
+  padding: 60px 0 250px;
+  background-image: url(../../assets/img/bg/section-5.png);
+  background-position: right center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.section-5__block_text {
+  font-weight: bold;
+  font-style: italic;
+  font-size: 22px;
+  color: $main;
+}
