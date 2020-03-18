@@ -1,0 +1,28 @@
+.section-2 {
+  padding: 70px 0;
+  background-color: $white;
+}
+
+.section-2__subtitle {
+  color: #4e4e4e;
+}
+
+.section-2__grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 70px;
+  margin-top: 45px;
+}
+
+.section-2__grid_item_img {
+  img {
+    width: 100%;
+  }
+}
+
+.section-2__grid_item_title {
+  margin-top: 25px;
+  font-weight: bold;
+  color: #4e4e4e;
+  text-align: center;
+}
