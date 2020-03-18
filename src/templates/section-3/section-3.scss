@@ -1,0 +1,16 @@
+.section-3__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 70px;
+  padding: 380px 30px 45px;
+  background-image: url(../../assets/img/bg/section-3.jpg);
+  background-position: center bottom;
+  background-size: cover;
+}
+
+.section-3__grid_item {
+  font-weight: bold;
+  font-size: 18px;
+  color: $white;
+  text-transform: uppercase;
+}
