@@ -19,7 +19,7 @@
   margin-right: 30px;
   font-weight: bold;
   font-size: 38px;
-  color: #da8500;
+  color: $main;
 }
 
 .header__logo_label {
@@ -38,21 +38,36 @@
 }
 
 .header__info_item {
+  position: relative;
   margin-bottom: 5px;
+  padding-right: 60px;
   &:last-child {
     margin-bottom: 0;
   }
 }
 
 .header__info_mail {
-  color: #33a1e6;
+  color: $main;
   text-decoration: underline;
 }
 
 .header__info_tel {
-  font-weight: bold;
-  font-size: 27px;
-  color: $main;
+  font-size: 26px;
+  color: $black;
+  &:hover {
+    color: $main;
+  }
+}
+
+.header__info_whatsapp {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45px;
 }
 
 .header__btn {
@@ -64,7 +79,6 @@
   border-radius: 3px;
   background-color: #dfdfdf;
   box-shadow: 0 2px 2px rgba(40, 40, 40, 0.59);
-  font-weight: bold;
   font-size: 16px;
   transition: all .3s;
   &:hover {
