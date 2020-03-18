@@ -17,3 +17,16 @@
   font-size: 22px;
   color: $main;
 }
+
+.section-5__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 260px;
+  height: 56px;
+  margin-top: 50px;
+  border-radius: 3px;
+  background-color: #da8500;
+  font-size: 16px;
+  color: $white;
+}

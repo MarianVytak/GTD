@@ -71,6 +71,10 @@ $(function () {
                 required: true,
                 minlength: 2
             },
+            mc_input_mail: {
+                required: true,
+                email: true
+            },
             mc_input_tel: {
                 required: true,
                 mobileRU: true
@@ -80,6 +84,10 @@ $(function () {
             mc_input_name: {
                 required: "Это поле обязательно к заполнению",
                 minlength: jQuery.validator.format("Длина имени должна составлять не менее {0} букв.")
+            },
+            mc_input_mail: {
+                required: "Это поле обязательно к заполнению",
+                email: "Пожалуйста, укажите действительный e-mail"
             },
             mc_input_tel: {
                 required: "Это поле обязательно к заполнению",
